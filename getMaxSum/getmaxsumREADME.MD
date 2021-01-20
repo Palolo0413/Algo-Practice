@@ -11,3 +11,6 @@
 //  getMaxSubSum([-1, 2, 3, -9, 11])==11
 
 //  getMaxSubSum([-1,-2,-3,-9])==-1
+
+
+https://javascript.info/task/maximal-subarray
