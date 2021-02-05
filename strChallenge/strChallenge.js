@@ -1,21 +1,16 @@
-function StrChallenge(str){
-  let arrStr = str.split('*')
-//  console.log('split', arrStr)
-  return merge(arrStr)
-}
+function strChallenge (str) {
+    let result=str.split('*')
+    let first =result[0]
+    let second =result[1]
+    let finalString=''
 
-function merge(arr){
-  let first = arr[0].split('')
-  let second = arr[1].split('')
-  let merged = ''
-
-  for(let i = 0; i < first.length || i < second.length; i++){
-    if(i < first.length){
-      merged += first[i]
+    for (let i=0;i<first.length||i<second.length;i++){
+        if(i<first.length){
+           finalString+=first[i]
+        }
+        if(i<second.length){
+            finalString+=second[i]
+        } 
     }
-    if(i < second.length){
-      merged += second[i]
-    }
-  }
-  return merged
+    return finalString
 }
