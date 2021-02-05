@@ -4,3 +4,13 @@ console.log(StrChallenge('abc1*kyoo')) // akbyco1o
 console.log(StrChallenge('ka12*abecsii')) //kaab1e2csii
 console.log(StrChallenge('123hg*aaabb')) // 1a2a3ahbgb
 console.log(StrChallenge('aaa*bbb')) // ababab
+
+
+aa
+01
+
+bbbb
+0123
+
+L2-L1
+L2-L1-1
