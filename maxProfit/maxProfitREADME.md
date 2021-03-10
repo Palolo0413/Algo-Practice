@@ -7,3 +7,5 @@ describe("Max Profit", () => {
   assert.deepEqual(maxProfit([2, 10, 1, 3]), [2, 10]);
   assert.deepEqual(maxProfit([2, 1, 2, 11]), [1, 11]);
 });
+
+

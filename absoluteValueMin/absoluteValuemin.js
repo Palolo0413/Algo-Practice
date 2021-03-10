@@ -1,18 +1,17 @@
 //solution 1
-function absoluteValuesSumMin(ints) {
-    const vals = [];
+function absoluteValuesSumMin(arr) {
+    const result = [];
   
-    ints.forEach(int => {
-      const sum = ints.reduce((accum, next) => {
-        return accum + Math.abs(next  - int);
+    arr.forEach(ele => {
+      const sum = arr.reduce((accum, next) => {
+        return accum + Math.abs(next  - ele);
       }, 0);
   
-      vals.push(sum);
+      result.push(sum);
     });
-  
-    // console.log(vals);
-    const lowest = Math.min(...vals);
-    return ints[vals.indexOf(lowest)];
+
+    const lowest = Math.min(...result);
+    return arr[result.indexOf(lowest)];
   }
 //solution 2
 function absoluteValuesSumMin (arr){
